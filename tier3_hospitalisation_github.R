@@ -1015,6 +1015,7 @@ ggsave("lft_trend.svg",path=normalizePath(file.path(b,"paper")),
        width = 16, height = 8, units="in",dpi=600)
 
 
-
+rm(list=ls())
+quit(save = "no")
 
 
